@@ -79,13 +79,20 @@ body {
   }
   
   
-  @media (max-width: 768px) {
-    .linktree-container {
-      width: 80%;
-    }
-  
-    .social-button {
-      width: 70%;
-    }
+
+@media (max-width: 768px) {
+  body {
+    background-image: url('https://i.ibb.co/85jCdRP/new-york-noite-skyline-android-wallpaper-whatsapp-android-iphone.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fixa o fundo enquanto a página rola */
   }
-  
+
+  .linktree-container {
+    width: 80%;
+  }
+
+  .social-button {
+    width: 70%;
+  }
+}
